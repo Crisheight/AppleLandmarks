@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		809E855B2C785EE2007721DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 809E85522C785EE2007721DC /* README.md */; };
+		809E85772C786375007721DC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 809E85762C78636F007721DC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		809E85282C785DBB007721DC /* AppleLandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		809E85322C785DBB007721DC /* AppleLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		809E85522C785EE2007721DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		809E85762C78636F007721DC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		809E850F2C785DBA007721DC = {
 			isa = PBXGroup;
 			children = (
+				809E85762C78636F007721DC /* .gitignore */,
 				809E85522C785EE2007721DC /* README.md */,
 				809E851A2C785DBA007721DC /* AppleLandmarks */,
 				809E852B2C785DBB007721DC /* AppleLandmarksTests */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809E85772C786375007721DC /* .gitignore in Resources */,
 				809E855B2C785EE2007721DC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
