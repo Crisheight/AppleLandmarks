@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  AppleLandmarks
+//  Landmarks
 //
-//  Created by Cris Rosa on 8/23/24.
+//  Created by Cris Rosa on 10/2/23.
 //
 
 import SwiftUI
@@ -10,12 +10,33 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            MapView()
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack (alignment: .leading){
+                Text("Turtle Rock")
+                    .font(.title)
+                HStack {
+                    Text("Joshua Tree National Park")
+                    Spacer()
+                    Text("California")
+                }
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                
+                Divider()
+                Text("About Turtle Rock")
+                    .font(.title2)
+                Text("Descriptive text goes here.")
+            }
+            .padding()
+            
+            Spacer()
         }
-        .padding()
     }
 }
 
