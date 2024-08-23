@@ -1,2 +1,2 @@
-# SwiftUILandmarks
-Follows the Swift Landmarks Tutorial
+# AppleLandmarks
+<p>Creating views in SwiftUI based on landmark locations</p>
