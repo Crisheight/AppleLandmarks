@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8001F8D12C795DCE00DDD9F0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8001F8D02C795DCE00DDD9F0 /* landmarkData.json */; };
-		8001F8D32C795E0700DDD9F0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001F8D22C795DFC00DDD9F0 /* Landmark.swift */; };
 		809E855B2C785EE2007721DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 809E85522C785EE2007721DC /* README.md */; };
 		809E85772C786375007721DC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 809E85762C78636F007721DC /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -31,8 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8001F8D02C795DCE00DDD9F0 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		8001F8D22C795DFC00DDD9F0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		809E85182C785DBA007721DC /* AppleLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809E85282C785DBB007721DC /* AppleLandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		809E85322C785DBB007721DC /* AppleLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +88,6 @@
 				809E852B2C785DBB007721DC /* AppleLandmarksTests */,
 				809E85352C785DBB007721DC /* AppleLandmarksUITests */,
 				809E85192C785DBA007721DC /* Products */,
-				8001F8D02C795DCE00DDD9F0 /* landmarkData.json */,
-				8001F8D22C795DFC00DDD9F0 /* Landmark.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,7 +223,6 @@
 			files = (
 				809E85772C786375007721DC /* .gitignore in Resources */,
 				809E855B2C785EE2007721DC /* README.md in Resources */,
-				8001F8D12C795DCE00DDD9F0 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8001F8D32C795E0700DDD9F0 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
