@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LandmarkList()
+        NavigationSplitView {
+                    List(landmarks) { landmark in
+                        LandmarkRow(landmark: landmark)
+                    }
+                } detail: {
+                    Text("Select a Landmark")
+                }
     }
 }
 
