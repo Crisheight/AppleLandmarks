@@ -1,5 +1,5 @@
 //
-//  LandmarkDetails.swift
+//  LandmarkDetail.swift
 //  AppleLandmarks
 //
 //  Created by Cris Rosa on 5/28/25.
