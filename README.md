@@ -1,5 +1,5 @@
 # AppleLandmarks
-## Interactive Map views in Swift, featuring favoriting specific locations
+## Interactive Map views using SwiftUI, featuring favoriting specific locations
 
 Creating views in SwiftUI based on landmark locations. Each location has 'state,' and can be favorited or unfavorited. The list of landmarks can be sorted by favorites.
 
