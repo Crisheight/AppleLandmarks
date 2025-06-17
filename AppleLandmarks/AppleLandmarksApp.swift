@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+
 @main
-struct AppleLandmarksApp: App {
+struct LandmarksApp: App {
     @State private var modelData = ModelData()
-    
+
+
     var body: some Scene {
         WindowGroup {
             ContentView()
