@@ -15,7 +15,7 @@ struct BadgeBackground: View {
             path.move(
                 to: CGPoint(
                     x: width * 0.95,
-                    y: height * 0.20
+                    y: height * (0.20 + HexagonParameters.adjustment)
                 )
             )
             HexagonParameters.segments.forEach { segment in
@@ -23,6 +23,17 @@ struct BadgeBackground: View {
                     to: CGPoint(
                         x: width * segment.line.x,
                         y: height * segment.line.y
+                    )
+                )
+                
+                path.addQuadCurve(
+                    to: CGPoint(
+                        x: width * segment.curve.x,
+                        y: height * segment.curve.y
+                    ),
+                    control: CGPoint(
+                        x: width * segment.control.x,
+                        y: height * segment.control.y
                     )
                 )
             }
